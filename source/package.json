@@ -1,0 +1,36 @@
+{
+  "name": "enoki-starterkit",
+  "version": "1.0.2",
+  "description": "A simple place to start",
+  "main": "index.js",
+  "scripts": {
+    "start": "watchify index.js -o ../bundles/bundle.js -t brfs -t sheetify -p [ css-extract -o ../bundles/bundle.css ] index.js",
+    "build": "browserify index.js -o ../bundles/bundle.js -t brfs -t yo-yoify -t  [ sheetify -u sheetify-cssnext ] -g es2040 -p [ css-extract -o ../bundles/bundle.css ] -p tinyify"
+  },
+  "keywords": [],
+  "author": "Jon-Kyle <contact@jon-kyle.com> (http://jon-kyle.com)",
+  "license": "ISC",
+  "dependencies": {
+    "brfs": "^1.4.3",
+    "choo": "^6.0.0",
+    "markdown-it": "^8.4.0",
+    "nanoassert": "^1.1.0",
+    "nanocomponent": "^6.4.0",
+    "object-keys": "^1.0.11",
+    "object-values": "^1.0.0",
+    "query-string": "^5.0.0",
+    "xhr": "^2.4.0",
+    "xtend": "^4.0.1",
+    "yo-yoify": "^3.7.3"
+  },
+  "devDependencies": {
+    "brfs": "^1.4.3",
+    "browserify": "^15.2.0",
+    "css-extract": "^1.2.0",
+    "es2040": "^1.2.6",
+    "sheetify": "^7.0.0",
+    "sheetify-cssnext": "^1.0.7",
+    "tinyify": "^2.4.0",
+    "watchify": "^3.10.0"
+  }
+}

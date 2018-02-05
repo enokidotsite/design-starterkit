@@ -1,0 +1,15 @@
+title: An Approach to School Construction
+----
+view: project
+----
+tags:
+  - book
+  - '1971'
+  - architecture
+  - schools
+  - softcover
+  - cover
+  - spreads
+  - typography
+----
+text: New York City: Georgian Lithographers Inc., 1971.

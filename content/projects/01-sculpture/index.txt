@@ -1,0 +1,13 @@
+title: Sculpture in Ghana
+----
+view: project
+----
+tags:
+  - book
+  - '1973'
+  - hardcover
+  - cover
+  - spreads
+
+----
+text: Tokyo
