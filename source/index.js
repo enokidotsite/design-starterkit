@@ -4,7 +4,7 @@ require('./design')
 
 // create your app
 app.use(require('./plugins/scroll'))
-app.use(require('choo-dat-hypha/choo')())
+app.use(require('enoki/choo')())
 
 // error route
 app.route('*', require('./components/wrapper'))
