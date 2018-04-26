@@ -1,3 +1,7 @@
+/**
+ * Note:
+ * This design does not yet use the page method!
+ */
 var choo = require('choo')
 var app = choo()
 require('./design')
