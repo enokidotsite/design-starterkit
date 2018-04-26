@@ -10,6 +10,7 @@
   },
   "keywords": [],
   "author": "Jon-Kyle <contact@jon-kyle.com> (http://jon-kyle.com)",
+  "repository": "git remote add origin https://github.com/enokidotsite/design-starterkit.git",
   "license": "Apache-2.0",
   "dependencies": {
     "brfs": "^1.4.3",
